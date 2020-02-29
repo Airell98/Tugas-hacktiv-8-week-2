@@ -1,0 +1,79 @@
+(Newton Second Law)
+
+1. Algoritma  :
+- deklarasikan massa benda(m) 
+- deklarasikan percepatan benda(a)
+- deklarasikan rumus  resultan gaya yaitu percepetan benda dikalikan dengan massa benda
+- tampilkan hasilnya dengan memasukkan hasil rumus resultan gaya kedalam DISPLAY
+
+1.Pseudocode :
+SET m to 600
+SET a to 2
+SET resultanGaya WITH THE VALUE OF m TIMES a
+
+DISPLAY resultanGaya
+
+(Tahun Kabisat)
+
+2. Algoritma :
+- deklarasikan tahun
+- deklarasikan kabisat
+- periksa tahun tersebut dengan mengunakan if else
+
+2. Pseudocode :
+SET nilaiTahun to 2020
+SET kabisat to 0
+
+IF tahun MODE 4 EQUAL TO kabisat AND tahun MODE 100 NOT EQUAL TO kabisat OR tahun MODE 4 EQUAL TO  kabisat AND tahun MODE 100 EQUAL TO kabisat AND tahun MODE 400 EQUAL TO kabisat THEN
+
+    DISPLAY 'tahun' PLUS nilaiTahun PLUS 'merupakan tahun kabisat'
+
+ELSE 
+
+    Display 'tahun' PLUS nilaiTahun PLUS 'bukan merupakan tahun kabisat'
+
+ENDIF
+    
+(Laundry Day)
+
+3.Algoritma :
+- deklarasikan jumlah baju
+- deklarasikan totalBaju 
+- memasukkan pendeklarasian jumlah baju kedalam sebuah perulangan WHILE beserta menambahkan increment ke untuk jumlah bajunya
+- membuat pengkondisian if else yang tempatkan didalam WHILE tersebut 
+
+3. Pseudocode 
+SET jumlahBaju to 1
+SET totalBaju to 20
+
+WHILE jumlahBaju LESS THEN totalBaju THEN
+    INCREMENT jumlahBaju
+IF jumlahBaju EQUAL TO total
+    DISPLAY 'Mulai, bajunya sudah ' + jumlahBaju
+ELSE 
+    DISPLAY 'Jangan cuci dulu, baju masih ' + jumlahBaju
+ENDIF
+ENDWHILE
+
+(Potong Kuku)
+
+4. Algoritma :
+- deklarasikan jumlah muridnya
+- deklarasikan total muridnya
+- membuat variabel kuku yang tipe data booleannya akan diisi oleh usernya
+- memasukkan semua deklarasian kedalam FOR
+- membuat if else didalam FOR tersebut
+
+4. Pseudocode
+SET jumlahMurid to 1
+SET totalMurid to 40
+SET kuku
+
+FOR jumlahMurid, jumlahMurid LESS THEN EQUAL TO totalMurid, INCREMENT jumlahMurid THEN
+    IF kuku  
+        DISPLAY 'Kamu murid yang pandai'
+    ELSE
+        DISPLAY 'Kamu saya hukum'
+    ENDIF
+ENDFOR
+
